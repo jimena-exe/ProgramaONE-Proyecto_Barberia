@@ -1,0 +1,26 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+.caja {
+  margin: 0 auto; /*el navegador calcula en función de la resolu del user*/
+  position: relative;
+  width: 940px;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
