@@ -24,3 +24,11 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
+
+.productos {
+  margin: 0 auto; /*el navegador calcula en función de la resolu del user*/
+  width: 940px;
+}
+.productos li {
+  display: inline-block;
+}
