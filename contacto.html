@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Productos - Barbería Alura</title>
+    <title>Contacto - Barbería Alura</title>
     <link rel="stylesheet" href="reset.css" />
     <!--Quita los estilos del navegador por defecto-->
     <link rel="stylesheet" href="style.css" />
@@ -24,32 +24,15 @@
       </div>
     </header>
     <main>
-      <ul class="productos">
-        <li>
-          <h2>Cabello</h2>
-          <img src="imagenes/cabello.jpg" />
-          <p class="producto-descripcion">
-            Con tijera o máquina, a gusto del cliente
-          </p>
-          <p class="producto-precio">$ 10.00</p>
-        </li>
-        <li>
-          <h2>Barba</h2>
-          <img src="imagenes/barba.jpg" />
-          <p class="producto-descripcion">
-            Corte y diseño profesional de barba
-          </p>
-          <p class="producto-precio">$ 08.00</p>
-        </li>
-        <li>
-          <h2>Cabello + Barba</h2>
-          <img src="imagenes/cabello+barba.jpg" />
-          <p class="producto-descripcion">
-            Paquete completo de cabello y barba
-          </p>
-          <p class="producto-precio">$ 15.00</p>
-        </li>
-      </ul>
+      <form action="">
+        <label for="nombreApellido">Nombre y apellido</label>
+        <input type="text" id="nombreApellido" />
+        <label for="correo">Correo electrónico</label>
+        <input type="text" id="correo" />
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" />
+        <input type="submit" value="Enviar formulario" />
+      </form>
     </main>
     <footer>
       <img src="imagenes/logo-blanco.png" />
